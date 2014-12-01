@@ -1,21 +1,34 @@
-# Pelagios API Developer Tutorial
+# Pelagios API Developer Examples
 
 These examples illustrate how you can use the [Pelagios API](http://github.com/pelagios/pelagios-api-v3) 
-to build your own Web mashups. The tutorial requires knowledge of JavaScript, and it helps if you have used 
-a Web mapping library before. But otherwise, things should work out-of-the-box.
+to build your own Web mashups. The examples require knowledge of JavaScript, and it helps if you have used 
+a Web mapping library before. But otherwise, things should Just Work.
 
 ## Running the Examples
 
-If you have a GitHub account, you can clone the repository. Otherwise, 
+If you have a GitHub account, clone this repository. Otherwise, 
 [download the whole project as a Zip](https://github.com/pelagios/pelagios-api-tutorial/archive/master.zip),
-and unpack at a convenient location.
-
-There are two examples in the project:
+and unpack at a convenient location. There are two examples in the project:
 
 ### Map Example
 
+This example shows how you can use the [search functionality of the Pelagios API](https://github.com/pelagios/pelagios-api-v3/blob/master/README.md#searching-the-api)
+to retrieve geographical outlines of objects, and plot them on a map using the [Leaflet](http://leafletjs.com) 
+Web mapping library, along with suitable base layer maps developed by the 
+[Digital Atlas of the Roman Empire](http://imperium.ahlfeldt.se/) and the 
+[Ancient World Mapping Center](http://awmc.unc.edu/wordpress/tiles/map-tile-information).
+
 ![Screenshot: Map](screenshots/screenshot-tutorial-map.jpg)
+
+Open the file ``tutorial-map.html`` with your browser to run the example. The relevant code to look at & tweak
+is in the file [tutorial-map.js](tutorial-map.js).
 
 ### Timeline Example
 
+The second example shows how you can retrieve dated objects from the Pelagios API and
+render them on a timeline, using the [vis.js](http://visjs.org/) visualization library.
+
 ![Screenshot: Timeline](screenshots/screenshot-tutorial-timeline.png)
+
+Open the file ``tutorial-timeline.html`` with your browser to run the example. Relevant code is 
+in the file [tutorial-timeline.js](tutorial-timeline.js).
