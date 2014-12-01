@@ -1,8 +1,8 @@
 # Pelagios API Developer Examples
 
 These examples illustrate how you can use the [Pelagios API](http://github.com/pelagios/pelagios-api-v3) 
-to build your own Web mashups. The examples require knowledge of JavaScript, and it helps if you have used 
-a Web mapping library before. But otherwise, things should Just Work.
+in your own Web mashups and applications. The examples require knowledge of JavaScript, and it helps if you 
+have used a Web mapping library before. But otherwise, things should Just Work.
 
 ## Running the Examples
 
