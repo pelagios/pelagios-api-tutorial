@@ -32,3 +32,17 @@ render them on a timeline, using the [vis.js](http://visjs.org/) visualization l
 
 Open the file ``tutorial-timeline.html`` with your browser to run the example. Relevant code is 
 in the file [tutorial-timeline.js](tutorial-timeline.js).
+
+## What Next?
+
+Here's what you should do next:
+
+1. Try playing around with the features of the Pelagios API. (For example: try plotting the footprints 
+of all datasets; improve map popups, so that they link back to the original source of the data; are 
+there any datasets you know of you could mash into the map, alongside the Pelagios API?)
+
+2. Try different visualization approaches & tools. (E.g how about visualizing search results in 
+[GeoTemCo](https://github.com/stjaenicke/GeoTemCo)?)
+
+3. Come up with something cool? Have more ideas? Let us know!
+
