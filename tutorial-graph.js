@@ -7,12 +7,14 @@ $(document).ready(function() {
   
   var nodeMap = {}, edgeMap = {},
   
+      /** Pulls an array of nodes out of the 'hashmap-like' object we use for building the graph **/
       getNodes = function() {
         return jQuery.map(nodeMap, function(node, uri) {
           return node;  
         });
       },
-      
+
+      /** Pulls an array of edges out of the 'hashmap-like' object we use for building the graph **/      
       getEdges = function() {
         var edgeList = [];
         jQuery.each(edgeMap, function(startNodeLabel, edges) {
@@ -23,6 +25,7 @@ $(document).ready(function() {
         return edgeList;
       },
   
+      /** Helper to add an edge to our 'hashmap-like' helper object **/
       addEdge = function(startURI, edge) {
         var edgesForStartNode = edgeMap[startURI];
         if (edgesForStartNode) {
@@ -34,7 +37,7 @@ $(document).ready(function() {
         }
       },
   
-      /** This is where things happen - we query the API and render the timeline **/
+      /** This is where things happen - we query the API and build the graph **/
       queryPelagiosAPI = function(itemId, limit) {        
         console.log('Fetching data from API');
     
