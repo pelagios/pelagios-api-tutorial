@@ -30,7 +30,7 @@ is in the file [tutorial-map.js](tutorial-map.js).
 ### Example 2: Placing Objects on a Timeline
 
 The second example uses the API to fetch objects that match the search query _'bronze AND coin'_, and which are dated
-between 700BC and 800AD. The objects' timestamps (either a single year or an interval) are then used to 
+between 700 BC and 800 AD. The objects' timestamps (either a single year or an interval) are then used to 
 construct an interactive timeline, using the [vis.js](http://visjs.org/) visualization library.
 
 ![Screenshot: Timeline](screenshots/screenshot-tutorial-timeline.png)
@@ -43,8 +43,7 @@ in the file [tutorial-timeline.js](tutorial-timeline.js).
 This examples retrieves the places mentioned in a single document, and constructs a graph from how the places
 occur in the text (again using the [vis.js](http://visjs.org/) visualization library). Places are connected if
 they appear adjacent in the text. This way, the graph shows their sequence, but also how more frequently referenced
-places become more central in the network. (Note: the distance between place references within the text is not
-taken into account in this simple example.)
+places become more central in the network.
 
 ![Screenshot: Network](screenshots/screenshot-tutorial-network.png)
 
