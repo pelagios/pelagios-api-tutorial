@@ -10,7 +10,7 @@ If you have a GitHub account, clone this repository. Otherwise,
 [download the whole project as a Zip](https://github.com/pelagios/pelagios-api-tutorial/archive/master.zip),
 and unpack at a convenient location. There are two examples in the project:
 
-### Map Example
+### Example 1: Mapping the Spatial Footprint of a Document
 
 This example shows how you can use the [search functionality of the Pelagios API](https://github.com/pelagios/pelagios-api-v3/blob/master/README.md#searching-the-api)
 to retrieve geographical outlines of objects, and plot them on a map using the [Leaflet](http://leafletjs.com) 
