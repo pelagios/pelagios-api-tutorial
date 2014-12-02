@@ -12,10 +12,14 @@ and unpack at a convenient location. There are two examples in the project:
 
 ### Example 1: Mapping the Spatial Footprint of a Document
 
-This example shows how you can use the [search functionality of the Pelagios API](https://github.com/pelagios/pelagios-api-v3/blob/master/README.md#searching-the-api)
-to retrieve geographical outlines of objects, and plot them on a map using the [Leaflet](http://leafletjs.com) 
-Web mapping library, along with suitable base layer maps developed by the 
-[Digital Atlas of the Roman Empire](http://imperium.ahlfeldt.se/) and the 
+This example uses the [search functionality of the Pelagios API](https://github.com/pelagios/pelagios-api-v3/blob/master/README.md#searching-the-api)
+to retrieve objects and map their geographical outlines on a map. Most objects on the Pelagios API have a "footprint" of just a single coordinate
+(e.g. because they are archaeological items, coins, etc.). But the literary works from the [Pelagios 3 collection](http://pelagios.org/api-v3/pages/datasets/2a10228dff4c608b91a953efff8dafb3f5c433035b3f31e687eec0297d799824)
+typically cover a larger area.
+
+The example searches the API for _Homer_ and _Herodotus_, grabs the search results' [convex hulls](http://en.wikipedia.org/wiki/Convex_hull)
+from the JSON responses and overlays them on map in different colours. The example uses the [Leaflet](http://leafletjs.com) Web mapping library,
+along with suitable base layer maps developed by the [Digital Atlas of the Roman Empire](http://imperium.ahlfeldt.se/) and the 
 [Ancient World Mapping Center](http://awmc.unc.edu/wordpress/tiles/map-tile-information).
 
 ![Screenshot: Map](screenshots/screenshot-tutorial-map.jpg)
