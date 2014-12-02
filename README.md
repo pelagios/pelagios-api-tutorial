@@ -28,10 +28,11 @@ example uses the [Leaflet](http://leafletjs.com) Web mapping library, along with
 Open the file ``tutorial-map.html`` with your browser to run the example. The relevant code to look at & tweak
 is in the file [tutorial-map.js](tutorial-map.js).
 
-### Timeline Example
+### Example 2: Placing Objects on a Timeline
 
-The second example shows how you can retrieve dated objects from the Pelagios API and
-render them on a timeline, using the [vis.js](http://visjs.org/) visualization library.
+The second example uses the API to fetch objects that match the search query _'bronze AND coin'_, and which are dated
+between 700BC and 800AD. The objects' timestamps (either a single year or an interval) are then used to 
+construct an interactive timeline, using the [vis.js](http://visjs.org/) visualization library.
 
 ![Screenshot: Timeline](screenshots/screenshot-tutorial-timeline.png)
 
