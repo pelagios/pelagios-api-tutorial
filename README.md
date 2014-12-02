@@ -39,7 +39,7 @@ construct an interactive timeline, using the [vis.js](http://visjs.org/) visuali
 Open the file ``tutorial-timeline.html`` with your browser to run the example. Relevant code is 
 in the file [tutorial-timeline.js](tutorial-timeline.js).
 
-## Example 3: 'Neighbourhood' of Toponyms in a Document
+## Example 3: 'Nearby Toponyms' in a Document
 
 ![Screenshot: Network](screenshots/screenshot-tutorial-network.png)
 
