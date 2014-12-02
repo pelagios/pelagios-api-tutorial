@@ -41,11 +41,12 @@ in the file [tutorial-timeline.js](tutorial-timeline.js).
 
 Some things you could do next:
 
-1. Try playing around with the features of the Pelagios API. (For example: try plotting the footprints 
-of all datasets; improve map popups, so that they link back to the original source of the data; are 
-there any datasets you know of you could mash into the map, alongside the Pelagios API?)
+1. Try playing around with the features of the Pelagios API. For example: try plotting the footprints 
+of all datasets; improve map popups, so that they link back to the original source of the data; make use 
+of the thumbnail URLs included with some of our objects; are there any other datasets you know of you
+could mash up with Pelagios API?
 
-2. Try different visualization approaches & tools. (E.g how about visualizing search results in 
-[GeoTemCo](https://github.com/stjaenicke/GeoTemCo)?)
+2. Try different visualization approaches & tools. E.g.: how about visualizing search results in 
+[GeoTemCo](https://github.com/stjaenicke/GeoTemCo)?
 
-3. Come up with something cool? Have more ideas? [Let us know!](http://twitter.com/pelagiosproject)
+3. Come up with something cool? Have more ideas? [Let us know](http://twitter.com/pelagiosproject)!
