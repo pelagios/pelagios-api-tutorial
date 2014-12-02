@@ -42,9 +42,10 @@ in the file [tutorial-timeline.js](tutorial-timeline.js).
 ## Example 3: 'Nearby Toponyms' in a Document
 
 This examples retrieves the places mentioned in a single document, and constructs a graph from how the places
-occur in the text. Places are connected if they appear adjacent in the text. This way, the graph shows their
-sequence, but also how more frequently referenced places become more central in the network. (Note: the distance
-between place references within the text does not matter in this simple example.)
+occur in the text (again using the [vis.js](http://visjs.org/) visualization library). Places are connected if
+they appear adjacent in the text. This way, the graph shows their sequence, but also how more frequently referenced
+places become more central in the network. (Note: the distance between place references within the text is not
+taken into account in this simple example.)
 
 ![Screenshot: Network](screenshots/screenshot-tutorial-network.png)
 
