@@ -18,8 +18,9 @@ to retrieve objects and map their geographical outlines on a map. Most objects o
 typically cover a larger area.
 
 The example searches the API for the terms _'Homer'_ and _'Herodotus'_, grabs the search results' [convex hulls](http://en.wikipedia.org/wiki/Convex_hull)
-from the JSON responses and overlays them on map in different colours. The example uses the [Leaflet](http://leafletjs.com) Web mapping library,
-along with suitable base layer maps developed by the [Digital Atlas of the Roman Empire](http://imperium.ahlfeldt.se/) and the 
+from the JSON responses and overlays them on map in different colours in order to visualize their different spatial focus. The
+example uses the [Leaflet](http://leafletjs.com) Web mapping library, along with suitable base layer maps developed by the
+[Digital Atlas of the Roman Empire](http://imperium.ahlfeldt.se/) and the  
 [Ancient World Mapping Center](http://awmc.unc.edu/wordpress/tiles/map-tile-information).
 
 ![Screenshot: Map](screenshots/screenshot-tutorial-map.jpg)
