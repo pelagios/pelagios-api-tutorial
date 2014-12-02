@@ -33,10 +33,6 @@ render them on a timeline, using the [vis.js](http://visjs.org/) visualization l
 Open the file ``tutorial-timeline.html`` with your browser to run the example. Relevant code is 
 in the file [tutorial-timeline.js](tutorial-timeline.js).
 
-## Network Example
-
-![Screenshot: Network](screenshots/screenshot-tutorial-network.png)
-
 ## What Next?
 
 Some things you could do next:
@@ -49,3 +45,4 @@ there any datasets you know of you could mash into the map, alongside the Pelagi
 [GeoTemCo](https://github.com/stjaenicke/GeoTemCo)?)
 
 3. Come up with something cool? Have more ideas? [Let us know!](http://twitter.com/pelagiosproject)
+
