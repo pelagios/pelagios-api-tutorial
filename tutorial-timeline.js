@@ -47,6 +47,6 @@ $(document).ready(function() {
       };
   
   // For the demo, we'll load the first 100 results for the query 'bronze && coin'
-  queryPelagiosAPI('bronze AND coin', 100);
+  queryPelagiosAPI('epitaph', 100);
   
 });
