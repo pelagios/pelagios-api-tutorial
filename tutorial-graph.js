@@ -76,6 +76,6 @@ $(document).ready(function() {
       };
   
   // For the demo, we'll load the annotations from the Vicarello Beakers
-  queryPelagiosAPI('8a629b3dcb66537a5e8c27060ecf68b96fbd6f01468e6a0d53d510d6757f87c2');
+  queryPelagiosAPI('18687760d04e0eb46857e383651cd915dde119bcfe55bcab9d40c89681c2da60');
   
 });
